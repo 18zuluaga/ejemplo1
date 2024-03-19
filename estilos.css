@@ -1,0 +1,81 @@
+header{
+    color: forestgreen;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 20%;
+    float: left;
+}
+section{
+    float: right;
+    width: 75%;
+    color: cadetblue;
+    background: rgb(0,247,247);
+    background: radial-gradient(circle, rgba(0,247,247,0.40798326166404064) 0%, rgba(252,70,70,0) 100%);
+    border-radius: 5px;
+    box-shadow: 1px 0 4px rgb(1, 1, 1);
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+nav a{
+    display: block;
+    padding: 10px;
+    border-radius: 10px 0 10px 0;
+    text-decoration: none;
+    margin: 10px;
+    color: aliceblue;
+    background-color: darkgreen;
+}
+
+nav{
+    margin-bottom: 20px;
+}
+
+aside {
+    box-shadow: inset 5px  0 5px rgb(115, 115, 115);
+    font-style: italic;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    width: 30%;
+    float: right;
+}
+footer{
+    text-align: center;
+}
+
+footer a{
+    margin-left: 10px;
+    padding: 20px;
+    color: aliceblue;
+    background-color: darkgreen;
+    text-decoration: none;
+}
+
+.section2{
+    float: right;
+    width: 75%;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(24,125,5,1) 50%, rgba(69,252,248,1) 100%);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 0 4px rgb(1, 1, 1);
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.section3{
+    background: rgb(174,238,202);
+    background: radial-gradient(circle, rgba(174,238,202,1) 0%, rgba(29,51,4,1) 100%);
+    color: aliceblue;
+}
+
+.section3 aside{
+    font-weight: 900;
+    text-align: center;
+    box-shadow: inset 5px  0 5px rgb(255, 255, 255);
+}
